@@ -8,8 +8,7 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  // a.k.a var  animal = cat is a no go
-
+  // because var  animal = 'cat' is shadowing
 
   return animal
 }
